@@ -9,6 +9,10 @@ function envoie() {
         return;
     }
 
+    const supprimerdiv = document.getElementById("suppr");
+
+    supprimerdiv.style.display = "none";
+
     const commentList = document.getElementById("comment-list");
 
     const newComment = 
